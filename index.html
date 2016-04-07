@@ -74,14 +74,7 @@
         z-index: 9;
     }
 
-    #github {
-        margin-top: 5px;
-        margin-left: 5px;
-        width: 90px;
-        height: 90px;
-    }
-
-    #linkedin {
+    #github, #linkedin, #email, #huh {
         margin-top: 5px;
         margin-left: 5px;
         width: 90px;
@@ -91,22 +84,26 @@
 </style>
 
 <body>
-    <p id="rounded-square-tl">
-        <img id="github" src="github-icon.svg"/>
-    </p>
-
-    <p id="rounded-square-tr">
-        <img id="linkedin" src="linkedin-icon.svg"/>
-    </p>
-        
-    
-    <p id="rounded-square-bl">
-        
-    </p>
-
-    <p id="rounded-square-br">
-        
-    </p>
+    <a href="https://github.com/aravasio">
+        <p id="rounded-square-tl">
+                <img id="github" src="github-icon.svg"/>
+        </p>
+    </a>
+    <a href="https://ar.linkedin.com/in/alejandro-matias-ravasio-61a2b120">
+        <p id="rounded-square-tr">
+            <img id="linkedin" src="linkedin-icon.svg"/>
+        </p>
+    </a>
+    <a href="mailto:hello@aravas.io?Subject=Hello! [subject]">
+        <p id="rounded-square-bl">
+            <img id="email" src="email-icon.svg"/>
+        </p>
+    </a>
+    <a href="">
+        <p id="rounded-square-br">
+            <img id="huh" src="huh-icon.svg"/>
+        </p>
+    </a>
     <div class="background-blue"></div>
     <img class="Card" src="card.png"/>
     <div class="linkedIn"></div>
