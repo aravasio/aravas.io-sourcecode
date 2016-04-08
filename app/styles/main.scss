@@ -8,22 +8,17 @@
   color: #fff;
   font-family: 'Comic Sans MS';
   font-weight: bold;
-  font-size: 2.5vw;;
-
+  font-size: 2.5vw;
 }
 
 .radius {
-  border-radius: 25px;
+  border-radius: 1vw;
   border-color: #fff;
 }
 
 .github,.email,.linkedin,.huh {
-  min-width: 50px;
-  max-width: 150px;
-  min-height: 50px;
-  max-height: 150px;
-  height: 100px;
-  width: 100px;
+  height: 5vw;
+  width: 5vw;
 }
 
 .card {
@@ -55,10 +50,6 @@
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
-}
-
-.small {
-  border-radius: 10px;
 }
 
 /* Space out content a bit */
