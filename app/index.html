@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-uiß">
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="styles/main.css">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- <link rel="stylesheet" media="(max-width: 800px)"> -->
   </head>
   <body>
     
@@ -28,8 +30,29 @@
         </a>
       </div>
     </div>
-  
-    
+
+    <ul class="vertical medium-horizontal menu">
+      <li>
+        <a class="button radius-mb" href="https://github.com/aravasio">
+          <img class="github-mb" src="images/github-icon.svg">
+        </a>
+      </li>
+      <li>
+        <a class="button radius-mb" href="https://ar.linkedin.com/in/alejandro-matias-ravasio-61a2b120">
+          <img class="linkedin-mb" src="images/linkedin-icon.svg">
+        </a>
+      </li>
+      <li>
+        <a class="button radius-mb" href="mailto:hello@aravas.io?Subject=Hello! [subject]">
+          <img class="email-mb" src="images/email-icon.svg">
+        </a>
+      </li>
+      <li>
+        <a class="button radius-mb" href="">
+          <img class="github-mb" src="images/huh-icon.svg">
+        </a>
+      </li>
+    </ul>
     <!-- build:js(app) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
@@ -37,7 +60,6 @@
     <script src="/bower_components/foundation-sites/dist/foundation.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-
     <script src="scripts/main.js"></script>
   </body>
 

@@ -6,7 +6,7 @@
 .contact-me {
   position: relative;
   color: #fff;
-  font-family: 'Comic Sans MS';
+  font-family: 'Helvetica Neue';
   font-weight: bold;
   font-size: 2.5vw;
 }
@@ -19,6 +19,67 @@
 .github,.email,.linkedin,.huh {
   height: 5vw;
   width: 5vw;
+}
+
+.menu {
+  display: none; 
+}
+
+// .github-mb,.email-mb,.linkedin-mb,.huh-mb {
+//   display:none;
+// }
+
+@media (max-width: 600px) {
+  .github-mb,.email-mb,.linkedin-mb,.huh-mb {
+    height: 5vw;
+    width: 5vw;
+  }
+
+  .radius, .contact-me {
+    display: none;
+  }
+
+  .radius-mb {
+    border-radius: 1vw;
+    border-color: #fff;
+  }
+
+  .menu {
+    display: inline-block;
+    position: fixed;
+    bottom:50vw;
+  }
+}
+
+@media (width: 568px) {
+  html {
+    height: 105%;
+  }
+
+  .menu {
+    display:none;
+  }
+
+  .contact-me {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    font-size: 2.5vw;
+  }
+
+  .radius {
+    display: inline-block;
+    border-radius: 1vw;
+    border-color: #fff;
+  }
+
+  .github,.email,.linkedin,.huh {
+    display: inline-block;
+    height: 5vw;
+    width: 5vw;
+  }
 }
 
 .card {
@@ -53,9 +114,9 @@
 }
 
 /* Space out content a bit */
-body {
-  max-height: 100%;
-  overflow: visible;
+html, body {
+  overflow: scroll;
+  // overflow: auto;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
